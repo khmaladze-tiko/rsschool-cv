@@ -37,3 +37,20 @@ My name is Tinatin Khmaladze, i live in Georgia, Rustavi, 24 years old. During t
 
 
 ---
+# Code Example
+```
+function openModal(){
+    console.log("start");
+    modal.style.display = "block";
+    let inputText = document.querySelector(".input").value;
+    let pharagrap = document.querySelector(".pharagrap");
+    pharagrap.innerHTML = inputText;
+    console.log("end");
+}
+```
+---
+### Languages
+---
+- Georgian - Native
+- Russian - Fluent
+- English - B2
